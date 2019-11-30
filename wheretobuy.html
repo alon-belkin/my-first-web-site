@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>My First Webpage</title>
+        <link rel="shortcut icon" href="images/nigga.img.jpg">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+	<div id="#bg">
+        <center><h1>Cool Games</h1></center>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact/contact.html">contact</a></li>
+				<li>where to buy</li>
+            </ul>
+        </nav>
+	</div>
+	<script>
+	function csgo() {
+		var str = "buy csgo here";
+		var result = str.link("https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/");
+		document.getElementById('csgo').innerHTML = result;
+	}
+	function rust() {
+		var srt = "buy rust here";
+		var rust = srt.link("https://store.steampowered.com/app/252490/Rust/");
+		document.getElementById('rust').innerHTML = rust;
+	}
+	function forest() { 
+	    var trs = "buy the forest here";
+		var forest = trs.link("https://store.steampowered.com/app/242760/The_Forest/");
+		document.getElementById('forest').innerHTML = forest;
+	}
+	function minecraft() {
+		var rst = "buy minecraft here";
+		var mine = rst.link("https://www.minecraft.net/en-us/");
+		document.getElementById('minecraft').innerHTML = mine;
+	}
+	</script>
+	<body dir=rtl>
+	<table border=3 width=50%>
+	<tr>
+		<th style="font-size:35px;">game</th>
+		<th style="font-size:35px;">developer</th>
+		<th style="font-size:35px;">where to buy</th>
+	</tr>
+	<tr>
+		<td style="font-size:35px;">csgo <img src="images/csgo.img.jpg" alt="" width="150" height="100"></td>
+		<td style="font-size:35px;">valve <img src='https://www.pngkey.com/png/detail/39-399199_valve-logo-valve-logo-png.png' alt="" width="150"></td>
+		<td id='csgo' style="font-size:35px;"><button onclick="csgo()" style="font-size:35px;">steam</button></td>
+	</tr>
+	<tr>
+		<td style="font-size:35px;">rust <img src='https://steamcdn-a.akamaihd.net/steam/apps/252490/header.jpg?t=1572600442' alt="" width="150"></td>
+		<td style="font-size:35px;">facepunch <img src='https://files.facepunch.com/s/84f338d00e7e.png' alt="" width="80" height="80"></td>
+		<td id='rust' style="font-size:35px;"><button onclick="rust()" style="font-size:35px;">steam</button></td>
+	</tr>
+	<tr>
+		<td style="font-size:35px;">the forest <img src='https://steamcdn-a.akamaihd.net/steam/apps/242760/header.jpg?t=1568768340' alt="" width="150"></td>
+		<td style="font-size:35px;">endnight <img src='https://endnightgames.com/themes/lone_survivor/images/optimized/logo-yellow.png' alt="" width="150"></td>
+		<td id='forest' style="font-size:35px;"><button onclick="forest()" style="font-size:35px;">steam</button></td>
+	</tr>
+	<tr>
+		<td style="font-size:35px;">minecraft <img src='https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/header/logo.png' alt="" width="150"></td>
+		<td style="font-size:35px;">mojang <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAACXCAMAAAAvQTlLAAAAn1BMVEX///8AAADbHynYAACXl5exsbHt7e1zc3P43+Dy8vLmfX7219fgVFmFhYXaFyP39/faCxkpKSkgICDS0tJLS0tra2vY2Nh7e3vm5ub0zM3g4OA+Pj63t7cyMjKQkJDaEB7IyMheXl7ePUSkpKRUVFQNDQ0ZGRn88/PoiInZAAv76uvdNj3kc3TcKzPfSEzqlpfsoaLwuLjurKzhXmDywsJ8N4C8AAAEB0lEQVR4nO2Wa3eqOBSGE61U2kLwAlIDXqoe1Npzatv//9tm50bijNhzZtZ8e5+1WkGT8JDs7GzGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA/5Hj8IIjYyKKRNAguIvnRTGP7A01c7jf5+2PLPbfRsEIUTjCLav9a/+CE2NVLTe+hb+LFltO1LOV+UFOLVvbtOB85rolUpb2cirrynonUzWCTIpvtIa9LO1Z3tS/7IGxAXWdtFMw4vxOXw123JGrNx60t2PbNidpJ3PP+dpe/uB8oD7Fwo+QhCvyD5qfS2fVy369H7yXdE3UFGmvOx4wLUOvkX2Fmq4r72Xfh42t1ywcYX1L7NzvpYdMQZ9fx7734gvTYsPt+Poin8SivFOP3womYoXYtF6DwFF78XnoldAXP2ZFLIpkpMa64XXK0peP8/n8se8/nL6a0Mus5HxsvUr1uTK9orWfC93autTcuxivaey9VkraxlWhwmzQ7fW0zM7m6vHcPL2+pYGXDhodpsqB1mC3ct1iEhu5QGq9JhRdpJYEXmbWjZek2XJ9WLRaVW0IX/PqPavP4TOlh+PzeRl4qTE33Hqp6F/4fpOdf93Wi0xmNCl2GxovPevaK+zyLcbr+NlLe59D2gavqfVaq6WaFLST8rXyUosQBx2nPiM4LxX1FWsjn7xyaiUj60XbRuoRiomjZF0Yr6eD2o6HL8Z+tl4lKY2UXHSvvGjidmFHespUXHqpudU/1M5rod5mZr0WtFfU92LUbskt60J7DU2uSA9D2gfWaysq03ejktKdftuwIzWRf/OSOrTUcs2tV6L60vRpr8TuQCF9srnt9Wxz2PKJ/To4r9hkG8oy+e/N15xaq4XJbeRrr4gk6nh0MV9m1/Kdz7sdXo3LrSllVu8luHlS/nvxRR47dTCNbeRrL90vqS/iy5yo5ShINde92EPfpfxDz3uxSq2i9bqxH80Sl3WQy6vWSydTfmU/rnhw1nV4NfslZXz1l4ZerNQbJr+dv+KxFqjCM0Z6r3hqvS7zVyntM7q8Up2/Ht/3p9Np//6QZXvvZchv5vsoNy9Oj19Xmjuz/NZL1Rj8er6vWCeU7/dCNA2FY9M0gn0uDx/Xva6cj3FZVDN1nQsd9XZZxFYbOS9z3v/h+UjreHh7aUmXy7emw6u7nlClzcydhcRCR37rJdb8j+sJ8uqlAVn2yLq83KGk583XX7u8NFHfbotYr1HrpefS1l9+hNv118tlrZqdhupbqlDvvddM+npVB3Fbr9bbPNnMbQ/pT5VcylzVq850U7t6tUh0Vv22Xh0+XjA031LhHmyVuLu+j0V7GQU1u76Lg0H+RX0PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8J/4CbDFOzRCjKb8AAAAASUVORK5CYII=' alt="" width="150" height="100"></td>
+		<td id='minecraft' style="font-size:35px;"><button onclick="minecraft()" style="font-size:35px;">mojang</button></td>
+	</tr>
+	</body>
+</html>

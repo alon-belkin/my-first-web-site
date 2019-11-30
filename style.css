@@ -1,13 +1,20 @@
 html {
-    background-color: rgb(214, 214, 214);
+	height: 1000px;
+    background-image: linear-gradient(rgb(204, 204, 204), rgb(34, 33, 33));
 }
 h1 {
-    background-color: blueviolet;
+    background-image: linear-gradient(blueviolet, blue, rgb(153, 6, 6));
     color: white;
     padding: 10px;
     margin: 0;
 }
 a {
     text-decoration: none;
-    color: black;
+    color: white;
+}
+main {
+	color: white;
+}
+footer {
+	color: white;
 }

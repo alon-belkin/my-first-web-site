@@ -3,14 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <title>My First Webpage</title>
-        <link rel="shortcut icon" href="..">
+        <link rel="shortcut icon" href="images/nigga.img.jpg">
         <link rel="stylesheet" href="../style.css">
     </head>
     <body>
-        <header> <h1>Alon's Webpage</h1> </header>
+	<div id="#bg">
+        <center><h1>Cool Games</h1></center>
         <nav>
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li>Contact</li>
+				<li><a href="../wheretobuy.html">where to buy</a></li>
             </ul>
         </nav>
+        <script>
+            function github() {
+                var mstr = 'check my github';
+                var gogit = mstr.link("https://github.com/alon-belkin");
+                document.getElementById('github').innerHTML = gogit;
+            }
+        </script>
+		<main>
+            <p>Alon-<span> alon.belkin.2006@gmail.com</span></p>
+            <p id="github"><button onclick="github()">Alon's Github</button></p>
+			<p>Eitan-<span>geymansoneitan@gmail.com</span></p>
+		</main>
+	</div>
+	</body>
+</html>
